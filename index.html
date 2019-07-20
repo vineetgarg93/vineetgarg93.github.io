@@ -1,71 +1,94 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Vineet Garg</title>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-	<style>
-		.scroll-y {
-			    overflow-y: scroll;
-    			height: 200px;
-  			  margin-bottom: 30px;	
-		}
-	  </style>
-  </head>
-  <body>
-    <div class="wrapper" style="overflow:auto;">
-	<header>
-	<img src="mypic.jpg" alt="Image">
-        
-	<h1>Vineet Garg</h1>
-	<h3>Electrical & Computer Engineering, Texas A & M University</h2>
-		<p> <a href="https://www.linkedin.com/in/gargvineet/">LinkedIn</a> </p>
-		<p> <a href="https://github.com/vineetgarg93/">GitHub</a> </p>
-		<p> <a href="Resume_Vineet.pdf">CV</a> </p>
-		
-		
-	</header>
-	  
-	<section>
-		<h1>About Me</h1>
-			<p> I am a second year graduate student working towards MS in Electrical Engineering at Texas A&M University. I am working with Dr. Chao Tian on developing efficient ways towards video semantic segmentation. I graduated with Bachelor's degree in Electrical Engineering from <a href="http://iitk.ac.in">IIT Kanpur</a>. Later I worked at an Industrial Robotics startup <a href="http://systemantics.com/">Systemantics</a> for 2 years. </p>
-			
-			<p> Apart from engineering, I like to read about current geopolitical trends affecting world politics </p>
-	</section>
-	  
-	<section>
-		<h1> Research Interests </h1>
-			<p> My research interest lies in Computer Vision, Deep Learning and Signal Processing. </p>
-			<p> In my Master's thesis, I developed an efficient algorithm to bring down the computational complexity of video semantic segmentation tasks. Specifically, I used motion vector based motion compensation combined with deep learning techniques to reduce the inference time by upto 40% </p>
-	</section>
-	
-    <section>
-		<h1>News </h1>			    
-		<ul type="circle">
-			<li> May 2019: Graduated from Texas A&M University </li>
-			<li> Mar 2019: Defended my Master's thesis </li>
-			<li> Jan 2019: Joining Apple Siri Speech as Machine Learning Engineer in July </li> 
-		</ul>	    
-	</section>
-	    
-	
-	    
-	<section>
-        <h1>Contact</h1>
-			<p>vineet.bnl@gmail.com</p>
-	</section>
+<style>
+body {
+  width: 800px;
+  margin: 0 auto;
+}
+a {text-decoration : none; color : #003399;}
+a:hover {text-decoration:underline; color: #8C1515; }
+</style>
 
-<!---      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer> --->
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-  </body>
+<style>
+.disabled{
+    pointer-events: none;
+    color:black;
+}
+</style>
+
+<script>
+function copy(dest, source) {
+  if(dest.source == source) {
+    dest.innerHTML = "";
+    dest.source = null;
+  }
+  else {
+    dest.innerHTML = source.innerHTML;
+    dest.source = source;
+  }
+  dest.blur();
+}
+</script>
+
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N3DNJHR');</script>
+    <!-- End Google Tag Manager -->
+    <title>Vineet Garg's Homepage</title>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-85710212-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N3DNJHR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<table cellpadding="20" style="font-size: 17px">
+<tr>
+<td><img src='mypic.jpg' alt="Vineet Garg"/, height = 320><br></td>
+<td>
+<h1> Vineet Garg <font size=4> </font> </h1>
+<font size="+1"><b>Machine Learning Engineer</b><br /><b>Apple Siri</b><br><b>Cupertino, CA</b><br><br>
+<b>Email</b>: <tt>vineet.bnl [at] gmail dot com</tt> <br>
+<a href="Resume_Vineet.pdf" target="_blank">CV</a> 
+<br>
+<a href="https://www.linkedin.com/in/gargvineet/" target="_blank"><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x25.png" width="160" height="25" border="0" alt="View Vineet Garg's profile on LinkedIn"></a> 
+
+<a class="github-button" href="https://github.com/vineetgarg93" data-style="mega">Github</a>
+<br>
+</td>
+</tr>
+</table>
+
+<p>
+I received my MS degree in Electrical Engineering from the <a href="https://engineering.tamu.edu/electrical/index.html" target="_blank">Department of ECE</a> at <a href="https://www.cmu.edu" target="_blank">Texas A&M University</a>. At TAMU, I worked with professor <a href = "https://engineering.tamu.edu/electrical/profiles/tian-chao.html" target="_blank">Chao Tian</a> on design of efficient deep learning algorithms for video semantic segmentation. <br> <br>
+I received my Bachelor degree in Electrical Engineering from <a href = "https://iitk.ac.in" target="_blank">IIT Kanpur</a>. Later I worked for 2 years for an Industrial robotics startup <a href = "http://systemantics.com" target="_blank">Systemantics</a>.<br>
+</p>
+
+My research interests are in deep learning and its applications in computer vision and speech recognition. I am also interested in signal processing and robotics.<br>
+<br>
+
+I am now a Machine Learning Engineer at Apple Siri Speech.<br>
+
+<br />
+<br />
+<br />
+</body>
+
 </html>
